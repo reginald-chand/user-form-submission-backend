@@ -1,4 +1,4 @@
 export const corsOptions = {
-  origin: ["http://localhost:3000"],
+  origin: ["https://user-form-submission-backend.onrender.com"],
   optionsSuccessStatus: 200,
 };
