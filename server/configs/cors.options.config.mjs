@@ -1,4 +1,4 @@
 export const corsOptions = {
-  origin: ["https://user-form-submission-backend.onrender.com"],
+  origin: [process.env.ALLOWED_ORIGIN_A],
   optionsSuccessStatus: 200,
 };
