@@ -25,10 +25,6 @@ app.use(session(sessionOptions));
 
 app.use(
   lusca({
-    // ! ALERT (csrf is disabled due to difference in ports, however manual csrf can also be implemented.)"
-    // * Create a random csrf token and save it in memory. then send the token as a response when the user login's or,
-    // * Create an Get API endpoint and send the token as a response. Then on every post match the generated token with the sent token from the client.
-    csrf: false,
     csp: {
       policy: {
         "default-src": "'self'",
